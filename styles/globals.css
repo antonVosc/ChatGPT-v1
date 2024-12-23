@@ -1,0 +1,80 @@
+@import url(./assets/css/vendors/aos.css);
+@import url(./assets/css/vendors/bootstrap.css);
+@import url(./assets/css/vendors/iconsax.css);
+@import url(./assets/css/vendors/remixicon.css);
+@import url(./assets/css/vendors/swiper-bundle.min.css);
+@import url(./assets/css/vendors/vendors/aos.css);
+@import url(./assets/css/style.css);
+
+.icon-custom, .mobile-custom, .icon-size {
+    font-size: 1.5rem;
+}
+
+.icon-custom, .mobile-custom, .message {
+    color: #3bedb2;
+}
+
+#chat-container {
+    margin-left: 1rem;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+
+.wrapper {
+    padding: 15px;
+}
+
+.chat {
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.wrapper, .chat {
+    width: 100%;
+}
+
+
+#chat-container, .chat, .profile {
+    display: flex;
+}
+
+#chat-container, .chat {
+    gap: 10px;
+}
+
+.profile {
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    background: #fd7e14;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai .profile {
+    background: #10a37f;
+}
+
+.profile img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+
+
+#chat-container, .message {
+    flex: 1; 
+}
+
+.message {
+    white-space: pre-wrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.mew-space {
+    padding: 0 1rem;
+}
